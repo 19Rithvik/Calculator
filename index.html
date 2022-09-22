@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+    <script src="app.js"></script>
+</head>
+<body>
+    <div class="calc-body">
+        <input type="text" placeholder="Result" class="answer-text" id="calc">
+        <div class="calc-nos" >
+            <input class="calc-btn" type="button" value="1"   onclick="symbol('1')" >
+            <input class="calc-btn" type="button" value="2"   onclick="symbol('2')" >
+            <input class="calc-btn" type="button" value="3"   onclick="symbol('3')" >
+            <input class="calc-btn" type="button" value="+"   onclick="symbol('+')" >
+            <input class="calc-btn" type="button" value="4"   onclick="symbol('4')" >
+            <input class="calc-btn" type="button" value="5"   onclick="symbol('5')" >
+            <input class="calc-btn" type="button" value="6"   onclick="symbol('6')" >
+            <input class="calc-btn" type="button" value="-"   onclick="symbol('-')" >
+            <input class="calc-btn" type="button" value="7"   onclick="symbol('7')" >
+            <input class="calc-btn" type="button" value="8"   onclick="symbol('8')" >
+            <input class="calc-btn" type="button" value="9"   onclick="symbol('9')" >
+            <input class="calc-btn" type="button" value="*"   onclick="symbol('*')" >
+            <input class="calc-btn" type="button" value="/"   onclick="symbol('/')" >
+            <input class="calc-btn" type="button" value="0"   onclick="symbol('0')" >
+            <input class="calc-btn" type="button" value="00"  onclick="symbol('00')" >
+            <input class="calc-btn" type="button" value="."   onclick="symbol('.')" >
+            <input class="calc-btn" type="button" value="+/-" onclick="changesign('')" >
+            <input class="calc-btn" type="button" value="C"   onclick="oneclear('')" >
+            <input class="calc-btn" type="button" value="CE"  onclick="clearinput()" >
+            <input class="calc-btn equal" type="button" value="="  onclick="result('=')" >
+        </div>
+    </div>  
+</body>
+</html> 
